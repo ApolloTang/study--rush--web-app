@@ -1,0 +1,30 @@
+{
+  "name": "@myscope/app--node-1",
+  "version": "1.0.0",
+  "description": "this is node project",
+  "private": true,
+  "main": "dist/start.js",
+  "typings": "dist/start.d.ts",
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "ISC",
+  "devDependencies": {
+    "@myscope/heft-node-rig": "workspace:*",
+    "@rushstack/eslint-config": "^2.4.0",
+    "@rushstack/heft": "0.37.0",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "16.6.1",
+    "nodemon": "~2.0.12"
+  },
+  "dependencies": {
+    "@myscope/util--foo-1": "workspace:*"
+  },
+  "scripts": {
+    "build": "heft build --clean",
+    "clean": "heft clean",
+    "build:watch": "heft build",
+    "start": "nodemon --watch dist/start.js --exec node dist/start.js",
+    "test": "heft test",
+    "test:watch": "heft test --watch"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@myscope/ui--react-cat-image",
+  "version": "1.0.0",
+  "description": "this is react ui project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "module": "src/index.tsx",
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "styled-components": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.0.0"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "styled-components": "^5.0.1",
+
+    "@types/styled-components": "*",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "typescript": "~4.3.5",
+
+    "@myscope/heft-ui-rig": "workspace:*",
+    "@rushstack/eslint-config": "^2.4.0",
+    "@rushstack/heft": "0.37.0",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "16.6.1"
+  },
+  "scripts": {
+    "build": "heft build --clean",
+    "clean": "heft clean",
+    "build:watch": "heft build",
+    "yyyystart": "node dist/start.js",
+    "test": "heft test",
+    "test:watch": "heft test --watch",
+    "xxxxbuild": "rushx clean && rushx babel-transpile && rushx type-emit",
+    "xxxxtype-emit": "tsc -p tsconfig.json",
+    "xxxxtype-validate": "tsc --noEmit -p tsconfig.json",
+    "xxxxbabel-transpile": "babel src -d build -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
+    "xxxxclean": "rm -fr ./build && rm -f tsconfig.tsbuildinfo"
+  }
+}

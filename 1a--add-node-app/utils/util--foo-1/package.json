@@ -1,0 +1,25 @@
+{
+  "name": "@myscope/util--foo-1",
+  "version": "1.0.0",
+  "description": "this is node project",
+  "main": "dist/start.js",
+  "typings": "dist/start.d.ts",
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "ISC",
+  "devDependencies": {
+    "@myscope/heft-node-rig": "workspace:*",
+    "@rushstack/eslint-config": "^2.4.0",
+    "@rushstack/heft": "0.37.0",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "16.6.1"
+  },
+  "scripts": {
+    "build": "heft build --clean",
+    "clean": "heft clean",
+    "build:watch": "heft build",
+    "start": "node dist/start.js",
+    "test": "heft test",
+    "test:watch": "heft test --watch"
+  }
+}
