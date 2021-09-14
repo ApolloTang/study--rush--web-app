@@ -1,9 +1,10 @@
 {
   "name": "web-app-1",
   "version": "1.0.0",
+  "description": "this is web application",
   "private": true,
   "main": "index.js",
-  "license": "MIT",
+  "license": "ISC",
   "engines": {
     "node": "x14.17.3"
   },
@@ -60,7 +61,7 @@
     "clean": "rimraf ./dist",
     "test": "jest",
     "test:watch": "jest",
-    "test:parallel": "heft test",
+    "test:parallel": "",
     "validate-lint": "",
     "validate-type": "tsc --noEmit -p tsconfig.json",
 
