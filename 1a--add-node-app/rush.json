@@ -469,14 +469,34 @@
     //  "packageName": "@myscope/ui--react-cat-image",
     //  "projectFolder": "ui/react-cat-image",
     // },
+    //
+    // ui
+    //
     {
       "packageName": "@myscope/ui--component-1",
       "projectFolder": "ui/component-1",
     },
+    //
+    // Utils
+    //
+    {
+      "packageName": "@myscope/util--foo-1",
+      "projectFolder": "utils/util--foo-1",
+    },
+    //
+    // Apps
+    //
     {
       "packageName": "web-app-1",
       "projectFolder": "apps/web-app-1",
     },
+    {
+      "packageName": "node-app-1",
+      "projectFolder": "apps/node-app-1",
+    },
+    //
+    // Tools
+    //
     {
       "packageName": "@myscope/heft-config-default-rig",
       "projectFolder": "tools/heft-config-default-rig",

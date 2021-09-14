@@ -2,24 +2,30 @@
   "name": "@myscope/util--foo-1",
   "version": "1.0.0",
   "description": "this is node project",
-  "main": "dist/start.js",
-  "typings": "dist/start.d.ts",
-  "keywords": [],
-  "author": "Apollo Tang",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "ISC",
+  "peerDependencies": {
+  },
+  "dependencies": {
+
+  },
   "devDependencies": {
-    "@myscope/heft-node-rig": "workspace:*",
+    "@myscope/heft-config-default-rig": "workspace:*",
     "@rushstack/eslint-config": "^2.4.0",
-    "@rushstack/heft": "0.37.0",
+    "@rushstack/heft": "^0.37.0",
     "@types/heft-jest": "1.0.2",
-    "@types/node": "16.6.1"
+    "@types/node": "16.6.1",
+    "typescript": "~4.3.5"
   },
   "scripts": {
     "build": "heft build --clean",
-    "clean": "heft clean",
     "build:watch": "heft build",
-    "start": "node dist/start.js",
+    "clean": "heft clean",
     "test": "heft test",
-    "test:watch": "heft test --watch"
+    "test:watch": "heft test",
+    "test:parallel": "heft test",
+    "validate-lint": "",
+    "validate-type": "heft build --clean"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/@myscope/heft-node-rig/profiles/default/tsconfig-base.json",
+  "extends": "./node_modules/@myscope/heft-config-default-rig/profiles/node-util/tsconfig-base.json",
   "compilerOptions": {
     "composite": true,
     "types": ["heft-jest", "node"]

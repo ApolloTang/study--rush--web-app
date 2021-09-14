@@ -1,9 +1,10 @@
 {
   "name": "web-app-1",
   "version": "1.0.0",
+  "description": "this is web application",
   "private": true,
   "main": "index.js",
-  "license": "MIT",
+  "license": "ISC",
   "engines": {
     "node": "x14.17.3"
   },
@@ -11,7 +12,19 @@
     "name": "Apollo Tang",
     "email": "tang.apollo@gmail.com"
   },
+  "dependencies": {
+    "@myscope/util--foo-1": "workspace:*",
+    "@myscope/ui--component-1": "workspace:*",
+    "core-js": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-loadable": "^5.5.0",
+    "regenerator-runtime": "^0.13.3",
+    "styled-components": "^5.0.1"
+  },
   "devDependencies": {
+    "@myscope/heft-config-default-rig": "workspace:*",
+    "@rushstack/eslint-config": "^2.4.0",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -45,25 +58,15 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/jest-dom": "^5.5.0"
   },
-  "dependencies": {
-    "@myscope/ui--component-1": "workspace:*",
-    "core-js": "^3.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-loadable": "^5.5.0",
-    "regenerator-runtime": "^0.13.3",
-    "styled-components": "^5.0.1"
-  },
   "scripts": {
     "build": "",
     "build:watch": "",
     "clean": "rimraf ./dist",
     "test": "jest",
     "test:watch": "jest",
-    "test:parallel": "heft test",
+    "test:parallel": "jest",
     "validate-lint": "",
     "validate-type": "tsc --noEmit -p tsconfig.json",
-
     "dev": "webpack-dev-server --progress --env.mode=\"development\"",
     "webpackbuild": "rushx clean && rushx bundle",
     "bundle": "webpack",
