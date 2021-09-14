@@ -15,7 +15,8 @@
 
   "references": [
     {"path": "../../ui/react-cat-image"},
-    {"path": "../../ui/component-1"}
+    {"path": "../../ui/component-1"},
+    {"path": "../../utils/util--foo-1"},
   ]
 }
 

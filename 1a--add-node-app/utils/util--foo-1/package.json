@@ -4,11 +4,12 @@
   "description": "this is node project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "module": "src/index.ts",
   "license": "ISC",
   "peerDependencies": {
   },
   "dependencies": {
-
+    "core-js": "^3.0.0"
   },
   "devDependencies": {
     "@myscope/heft-config-default-rig": "workspace:*",

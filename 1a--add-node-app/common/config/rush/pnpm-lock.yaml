@@ -168,7 +168,10 @@ importers:
       '@rushstack/heft': ^0.37.0
       '@types/heft-jest': 1.0.2
       '@types/node': 16.6.1
+      core-js: ^3.0.0
       typescript: ~4.3.5
+    dependencies:
+      core-js: 3.17.2
     devDependencies:
       '@myscope/heft-config-default-rig': link:../../tools/heft-config-default-rig
       '@rushstack/eslint-config': 2.4.0_typescript@4.3.5
