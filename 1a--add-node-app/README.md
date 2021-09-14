@@ -16,5 +16,13 @@ Rush build:watch
 
 ## Description of this project
 
-This version is a copy of `3--w-rig-managing-dependencies`. Now adding jest. 
+This a web application. It has a front end and back end apps manage by Rush.
+
+The front end app is based on: 
+
+[https://github.com/ApolloTang/study--rush--react-apps/tree/main/4--w-jest-in-web-app-1](https://github.com/ApolloTang/study--rush--react-apps/tree/main/4--w-jest-in-web-app-1)
+
+The back end app is based on: 
+
+[https://github.com/ApolloTang/study--rush--node-app/tree/main/03-node-apps-w-ts-proj-ref](https://github.com/ApolloTang/study--rush--node-app/tree/main/03-node-apps-w-ts-proj-ref)
 
