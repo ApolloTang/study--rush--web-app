@@ -498,6 +498,10 @@
     // Tools
     //
     {
+      "packageName": "@myscope/eslint-config",
+      "projectFolder": "tools/eslint-config"
+    },
+    {
       "packageName": "@myscope/heft-config-default-rig",
       "projectFolder": "tools/heft-config-default-rig",
     }

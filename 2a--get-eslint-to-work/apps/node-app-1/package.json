@@ -17,12 +17,14 @@
   },
   "devDependencies": {
     "@myscope/heft-config-default-rig": "workspace:*",
+    "@myscope/eslint-config": "workspace:*",
     "@rushstack/eslint-config": "^2.4.0",
     "@rushstack/heft": "^0.37.0",
     "@types/heft-jest": "1.0.2",
     "@types/node": "16.6.1",
     "typescript": "~4.3.5",
-    "nodemon": "~2.0.12"
+    "nodemon": "~2.0.12",
+    "eslint": "7.32.0"
   },
   "scripts": {
     "build": "heft build --clean",
