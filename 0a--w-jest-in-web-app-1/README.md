@@ -16,5 +16,5 @@ Rush build:watch
 
 ## Description of this project
 
-This version is a copy of `3--w-rig-managing-dependencies`. Now adding jest. 
+This is a copy of [https://github.com/ApolloTang/study--rush--react-apps/tree/main/4--w-jest-in-web-app-1](https://github.com/ApolloTang/study--rush--react-apps/tree/main/4--w-jest-in-web-app-1). I am using this as a based in starting this repo. 
 
