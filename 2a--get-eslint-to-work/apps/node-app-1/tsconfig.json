@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@myscope/heft-config-default-rig/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "types": ["heft-jest", "node"]
+  },
+  "references": [
+    {"path": "../../utils/util--foo-1"},
+  ]
+}
