@@ -2,16 +2,15 @@
 
 ## Description of this project
 
+#### **This is a continuation of 1a--add-node-app, focus on getting eslint to work.**
 
-**This is a continuation of 1a--add-node-app, focus on getting eslint to work.**
+This is a web application. It has a front-end and back-end app manage by Rush.
 
-This a web application. It has a front-end and back-end apps manage by Rush.
-
-The front end app is based on: 
+The front-end app is based on: 
 
 [https://github.com/ApolloTang/study--rush--react-apps/tree/main/4--w-jest-in-web-app-1](https://github.com/ApolloTang/study--rush--react-apps/tree/main/4--w-jest-in-web-app-1)
 
-The back end app is based on: 
+The back-end app is based on: 
 
 [https://github.com/ApolloTang/study--rush--node-app/tree/main/03-node-apps-w-ts-proj-ref](https://github.com/ApolloTang/study--rush--node-app/tree/main/03-node-apps-w-ts-proj-ref)
 
