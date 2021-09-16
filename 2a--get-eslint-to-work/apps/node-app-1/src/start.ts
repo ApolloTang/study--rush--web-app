@@ -1,4 +1,9 @@
-console.log('This is node-app-1')
+//xxxeslint-disable-next-line
+console.log('This is node-app-1');
 
-import {someString} from './bar/index'
-console.log('someString', someString)
+import {someString} from './bar/index';
+
+// eslint-disable-next-line
+console.log('someString', someString);
+
+

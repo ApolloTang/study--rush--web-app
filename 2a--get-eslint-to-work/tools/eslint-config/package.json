@@ -28,6 +28,7 @@
     "jest": "~27.0.6"
   },
   "devDependencies": {
+    "@rushstack/eslint-patch": "^1.0.6",
     "eslint": "7.32.0"
   }
 }

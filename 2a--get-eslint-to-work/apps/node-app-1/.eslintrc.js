@@ -6,7 +6,7 @@ module.exports = {
   extends: [
     '@myscope/eslint-config/myconfig',
     // '@rush-monorepo/eslint-config/typescript/react',
-    '@myscope/eslint-config/prettier',
+    // '@myscope/eslint-config/prettier',
   ],
 
   parserOptions: {
@@ -17,6 +17,6 @@ module.exports = {
     ecmaVersion: 2015,
   },
   rules: {
-    // 'no-console': 'error',
+     'no-console': 'error',
   },
 };

@@ -7,6 +7,9 @@ import App from './app';
 
 let foo:number = undefined
 
+// eslint-disable-next-line
+console.log('foo')
+
 fonts.loadFonts()
 const appContainer = document.getElementById('app-container');
 ReactDom.render( <App/>,  appContainer)
