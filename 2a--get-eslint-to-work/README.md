@@ -20,9 +20,9 @@ There are limitations using typscript's project references. For more details see
 
 Another problem I have with typescript's Project References is the need to specify `.json` file-type in tsconfig.json. (see [this line](https://github.com/ApolloTang/study--rush--web-app/blob/main/1a--add-node-app/tools/heft-config-default-rig/profiles/react-ui/tsconfig-base.json#L31)). This happens because of [this issue](https://github.com/microsoft/TypeScript/issues/25636). 
 
-Specifying `.json` file type in tsconfig.json interfers with heft-typescript task's [staticAssetsToCopy.excludeGlobs](https://github.com/ApolloTang/study--rush--web-app/blob/main/1a--add-node-app/tools/heft-config-default-rig/profiles/react-ui/config/typescript.json#L65) since tsc will copy all *.json into the output folder (`dist`); this is defeating the purpose of heft-typescript file copying task's glob for files not to copy. 
+Specifying `.json` file-type in `tsconfig.json` interfers with heft-typescript task's [staticAssetsToCopy.excludeGlobs](https://github.com/ApolloTang/study--rush--web-app/blob/main/1a--add-node-app/tools/heft-config-default-rig/profiles/react-ui/config/typescript.json#L65) since tsc will copy all *.json into the output folder (`dist`); this is defeating the purpose of heft-typescript file copying task's glob for files not to copy. 
 
-Specifying `.json` file type in tsconfig.json, also cause heft-task's TSLint to lint `.json` files. For this I disable Tslint in [typescript.json](https://github.com/ApolloTang/study--rush--web-app/blob/main/0a--w-jest-in-web-app-1/tools/heft-config-default-rig/profiles/react-ui/config/typescript.json#L36), but resort to  invoke linting through other means without using heft tool chain.
+Specifying `.json` file-type in tsconfig.json, also causes heft-task's TSLint to lint `.json` files. For this I disable Tslint in [typescript.json](https://github.com/ApolloTang/study--rush--web-app/blob/main/0a--w-jest-in-web-app-1/tools/heft-config-default-rig/profiles/react-ui/config/typescript.json#L36), but resort to  invoke linting through other means without using heft tool chain.
 
 
 
