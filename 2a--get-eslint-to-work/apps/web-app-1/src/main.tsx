@@ -7,7 +7,7 @@ import App from './app';
 
 let foo:number = undefined
 
-// eslint-disable-next-line
+// xxxeslint-disable-next-line
 console.log('foo')
 
 fonts.loadFonts()

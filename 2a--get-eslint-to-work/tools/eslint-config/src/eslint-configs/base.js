@@ -33,13 +33,18 @@ module.exports = {
   },
 
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-    createDefaultProgram: true, //<----- https://stackoverflow.com/a/64488474/3136861
-    project: './tsconfig.json',
-    ecmaVersion: 2019,
-    sourceType: 'module',
-  },
+
+  // ------------------------------------------------------
+  // the following must locate in project folder
+  // otherwise eslint look for tsconfig in this tool project
+  // ------------------------------------------------------
+  // parserOptions: {
+  //   tsconfigRootDir: __dirname,
+  //   createDefaultProgram: true, //<----- https://stackoverflow.com/a/64488474/3136861
+  //   project: './tsconfig.json',
+  //   ecmaVersion: 2019,
+  //   sourceType: 'module',
+  // },
 
   rules: {
     'no-console': 'warn',
