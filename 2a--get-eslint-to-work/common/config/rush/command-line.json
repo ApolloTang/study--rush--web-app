@@ -102,6 +102,19 @@
       "incremental": false,
       "watchForChanges": false,
     },
+    {
+      "name": "validate-lint:fix",
+      "commandKind": "bulk",
+      "summary": "(CUSTOM)(BULK) Run lint on all project",
+      "description": "No description",
+      "safeForSimultaneousRushProcesses": true,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": false,
+      "watchForChanges": false,
+    },
     // {
     //   /**
     //    * (Required) Determines the type of custom command.
