@@ -1,7 +1,7 @@
 /* eslint-disable */
 require('@rushstack/eslint-patch/modern-module-resolution');
 
-const out = {
+module.exports  = {
   root: true,
   extends: [
     '@myscope/eslint-config/src/eslint-configs/react.js',
@@ -20,6 +20,3 @@ const out = {
     'no-console': 'error',
   },
 };
-
-console.log('xxxx:', out)
-module.exports = out
