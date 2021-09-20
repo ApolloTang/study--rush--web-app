@@ -26,7 +26,6 @@
     "@myscope/heft-config-default-rig": "workspace:*",
     "@myscope/eslint-config": "workspace:*",
     "@myscope/prettier-config": "workspace:*",
-    "@rushstack/eslint-config": "^2.4.0",
     "@rushstack/eslint-patch": "^1.0.6",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.6",

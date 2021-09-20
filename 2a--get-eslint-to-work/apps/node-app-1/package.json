@@ -19,7 +19,6 @@
     "@myscope/heft-config-default-rig": "workspace:*",
     "@myscope/eslint-config": "workspace:*",
     "@myscope/prettier-config": "workspace:*",
-    "@rushstack/eslint-config": "^2.4.0",
     "@rushstack/eslint-patch": "^1.0.6",
     "@rushstack/heft": "^0.37.0",
     "@types/heft-jest": "1.0.2",
