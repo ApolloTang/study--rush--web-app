@@ -15,6 +15,8 @@
   },
   "devDependencies": {
     "@myscope/heft-config-default-rig": "workspace:*",
+    "@myscope/eslint-config": "workspace:*",
+    "@myscope/prettier-config": "workspace:*",
     "@rushstack/eslint-config": "^2.4.0",
     "@rushstack/eslint-patch": "^1.0.6",
     "@rushstack/heft": "^0.37.0",
@@ -23,13 +25,14 @@
     "@types/styled-components": "*",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.2",
+    "@types/jest": "^25.2.3",
+
     "@testing-library/react": "^11.1.0",
     "@testing-library/jest-dom": "^5.5.0",
     "react": "^17.0.2",
     "styled-components": "^5.0.1",
     "typescript": "~4.3.5",
     "eslint": "7.32.0",
-    "jest": "^25.5.4",
     "prettier": "^2.4.1"
   },
   "scripts": {
@@ -39,7 +42,8 @@
     "test": "heft test",
     "test:watch": "heft test",
     "test:parallel": "heft test",
-    "validate-lint": "",
+    "validate-lint": "eslint src --ext=ts,tsx",
+    "validate-lint:fix": "npm run validate-lint -- --fix",
     "validate-type": "heft build --clean"
   }
 }
