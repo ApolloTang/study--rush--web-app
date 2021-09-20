@@ -5,21 +5,17 @@ module.exports = {
   root: true,
 
   extends: [
-    'eslint:recommended', 
-    'plugin:jest/recommended', 
+    'eslint:recommended',
+    'plugin:jest/recommended',
     'plugin:jsx-a11y/recommended'
   ],
 
   plugins: [
-    '@typescript-eslint', 
+    '@typescript-eslint',
     'simple-import-sort'
   ],
 
   settings: {
-    jest: {
-      version: 27, // <--- https://github.com/microsoft/vscode-eslint/issues/1145#issuecomment-780130183
-    },
-
     // Apply special parsing for TypeScript files
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.d.ts'],

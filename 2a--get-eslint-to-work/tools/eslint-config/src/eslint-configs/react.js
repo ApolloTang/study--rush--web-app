@@ -22,6 +22,9 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    jest: {
+      version: 27, // <--- https://github.com/microsoft/vscode-eslint/issues/1145#issuecomment-780130183
+    },
   },
 
   env: {
@@ -37,6 +40,6 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-uses-react': 'error', // https://github.com/eslint/eslint/issues/11183
     'react/jsx-uses-vars': ['error'], // https://github.com/eslint/eslint/issues/8226
-    'react/display-name': 'warn', // https://github.com/yannickcr/eslint-plugin-react/issues/597 
+    'react/display-name': 'warn', // https://github.com/yannickcr/eslint-plugin-react/issues/597
   },
 };
