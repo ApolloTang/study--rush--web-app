@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import img from './peanuts/peanuts.jpg'
 
-// import Cat from '@myscope/ui--react-cat-image';
+import Cat from '@myscope/ui--react-cat-image';
 
 const ComponentStyled = styled.div`
   border: 1px solid blue;
@@ -16,7 +16,7 @@ const Component = () => (
     <div>
       <img src={img} width="150px"/>
     </div>
-    {/* <Cat /> */}
+    <Cat />
   </ComponentStyled>
 );
 

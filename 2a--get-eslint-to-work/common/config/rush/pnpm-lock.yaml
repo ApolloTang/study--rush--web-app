@@ -211,7 +211,53 @@ importers:
       '@myscope/eslint-config': workspace:*
       '@myscope/heft-config-default-rig': workspace:*
       '@myscope/prettier-config': workspace:*
+      '@myscope/ui--react-cat-image': workspace:*
       '@rushstack/eslint-config': ^2.4.0
+      '@rushstack/eslint-patch': ^1.0.6
+      '@rushstack/heft': ^0.37.0
+      '@testing-library/jest-dom': ^5.5.0
+      '@testing-library/react': ^11.1.0
+      '@types/heft-jest': 1.0.2
+      '@types/jest': ^25.2.3
+      '@types/node': 16.6.1
+      '@types/react': 17.0.2
+      '@types/react-dom': 17.0.2
+      '@types/styled-components': '*'
+      core-js: ^3.0.0
+      eslint: 7.32.0
+      prettier: ^2.4.1
+      react: ^17.0.2
+      styled-components: ^5.0.1
+      typescript: ~4.3.5
+    dependencies:
+      '@myscope/ui--react-cat-image': link:../react-cat-image
+      core-js: 3.17.3
+    devDependencies:
+      '@myscope/eslint-config': link:../../tools/eslint-config
+      '@myscope/heft-config-default-rig': link:../../tools/heft-config-default-rig
+      '@myscope/prettier-config': link:../../tools/prettier-config
+      '@rushstack/eslint-config': 2.4.0_eslint@7.32.0+typescript@4.3.5
+      '@rushstack/eslint-patch': 1.0.6
+      '@rushstack/heft': 0.37.4
+      '@testing-library/jest-dom': 5.14.1
+      '@testing-library/react': 11.2.7_react@17.0.2
+      '@types/heft-jest': 1.0.2
+      '@types/jest': 25.2.3
+      '@types/node': 16.6.1
+      '@types/react': 17.0.2
+      '@types/react-dom': 17.0.2
+      '@types/styled-components': 5.1.14
+      eslint: 7.32.0
+      prettier: 2.4.1
+      react: 17.0.2
+      styled-components: 5.3.1_react@17.0.2
+      typescript: 4.3.5
+
+  ../../ui/react-cat-image:
+    specifiers:
+      '@myscope/eslint-config': workspace:*
+      '@myscope/heft-config-default-rig': workspace:*
+      '@myscope/prettier-config': workspace:*
       '@rushstack/eslint-patch': ^1.0.6
       '@rushstack/heft': ^0.37.0
       '@testing-library/jest-dom': ^5.5.0
@@ -234,7 +280,6 @@ importers:
       '@myscope/eslint-config': link:../../tools/eslint-config
       '@myscope/heft-config-default-rig': link:../../tools/heft-config-default-rig
       '@myscope/prettier-config': link:../../tools/prettier-config
-      '@rushstack/eslint-config': 2.4.0_eslint@7.32.0+typescript@4.3.5
       '@rushstack/eslint-patch': 1.0.6
       '@rushstack/heft': 0.37.4
       '@testing-library/jest-dom': 5.14.1
