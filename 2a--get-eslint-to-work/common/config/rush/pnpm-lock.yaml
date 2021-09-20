@@ -253,7 +253,9 @@ importers:
 
   ../../utils/util--foo-1:
     specifiers:
+      '@myscope/eslint-config': workspace:*
       '@myscope/heft-config-default-rig': workspace:*
+      '@myscope/prettier-config': workspace:*
       '@rushstack/eslint-config': ^2.4.0
       '@rushstack/eslint-patch': ^1.0.6
       '@rushstack/heft': ^0.37.0
@@ -267,7 +269,9 @@ importers:
     dependencies:
       core-js: 3.17.3
     devDependencies:
+      '@myscope/eslint-config': link:../../tools/eslint-config
       '@myscope/heft-config-default-rig': link:../../tools/heft-config-default-rig
+      '@myscope/prettier-config': link:../../tools/prettier-config
       '@rushstack/eslint-config': 2.4.0_eslint@7.32.0+typescript@4.3.5
       '@rushstack/eslint-patch': 1.0.6
       '@rushstack/heft': 0.37.4
