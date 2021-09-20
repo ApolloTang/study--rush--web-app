@@ -21,10 +21,7 @@ module.exports = {
   settings: {
     react: {
       version: 'detect',
-    },
-    jest: {
-      version: 27, // <--- https://github.com/microsoft/vscode-eslint/issues/1145#issuecomment-780130183
-    },
+    }
   },
 
   env: {

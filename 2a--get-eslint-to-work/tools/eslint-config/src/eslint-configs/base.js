@@ -28,6 +28,10 @@ module.exports = {
     },
     // Append 'ts' extensions to 'import/extensions' setting
     'import/extensions': ['.js', '.ts', '.mjs'],
+
+    jest: {
+      version: 27, // <--- https://github.com/microsoft/vscode-eslint/issues/1145#issuecomment-780130183
+    }
   },
 
   globals: {
