@@ -1,4 +1,4 @@
-/* xxxeslint-disable */
+/* eslint-disable */
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
