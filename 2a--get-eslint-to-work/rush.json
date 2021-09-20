@@ -446,46 +446,23 @@
     //   // "versionPolicyName": ""
     // },
     //
-    // {
-    //   "packageName": "my-controls",
-    //   "projectFolder": "libraries/my-controls",
-    //   "reviewCategory": "production"
-    // },
-    //
-    // {
-    //   "packageName": "my-toolchain",
-    //   "projectFolder": "tools/my-toolchain",
-    //   "reviewCategory": "tools"
-    // }
-    // {
-    //   "packageName": "@mylibs/utils--shared",
-    //   "projectFolder": "utils/utils--shared",
-    // },
-    // {
-    //   "packageName": "@mylibs/ui--button",
-    //   "projectFolder": "ui/button",
-    // },
-    // {
-    //  "packageName": "@myscope/ui--react-cat-image",
-    //  "projectFolder": "ui/react-cat-image",
-    // },
     //
     // ui
-    //
+    // -------------------------------------------------------
     {
       "packageName": "@myscope/ui--component-1",
       "projectFolder": "ui/component-1",
     },
     //
     // Utils
-    //
+    // -------------------------------------------------------
     {
       "packageName": "@myscope/util--foo-1",
       "projectFolder": "utils/util--foo-1",
     },
     //
     // Apps
-    //
+    // -------------------------------------------------------
     {
       "packageName": "web-app-1",
       "projectFolder": "apps/web-app-1",
@@ -496,7 +473,7 @@
     },
     //
     // Tools
-    //
+    // -------------------------------------------------------
     {
       "packageName": "@myscope/eslint-config",
       "projectFolder": "tools/eslint-config"
