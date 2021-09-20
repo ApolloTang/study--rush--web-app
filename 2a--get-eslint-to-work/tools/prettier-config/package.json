@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.json",
   "license": "MIT",
-  "devDependencies": {
-    "prettier": "^2.4.1"
+
+  "scripts": {
+    "build": ""
   }
 }

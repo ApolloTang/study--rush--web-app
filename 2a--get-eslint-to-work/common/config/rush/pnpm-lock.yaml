@@ -201,10 +201,7 @@ importers:
       prettier: 2.4.1
 
   ../../tools/prettier-config:
-    specifiers:
-      prettier: ^2.4.1
-    devDependencies:
-      prettier: 2.4.1
+    specifiers: {}
 
   ../../ui/component-1:
     specifiers:
