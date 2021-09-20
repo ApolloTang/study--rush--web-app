@@ -15,7 +15,8 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "@rushstack/eslint-patch": "^1.0.6",
-    "@rushstack/heft": "^0.37.0"
+    "@rushstack/heft": "^0.37.0",
+    "prettier": "^2.4.1"
   },
   "scripts": {
     "build": ""

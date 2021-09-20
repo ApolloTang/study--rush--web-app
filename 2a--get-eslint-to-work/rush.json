@@ -502,6 +502,10 @@
       "projectFolder": "tools/eslint-config"
     },
     {
+      "packageName": "@myscope/prettier-config",
+      "projectFolder": "tools/prettier-config"
+    },
+    {
       "packageName": "@myscope/heft-config-default-rig",
       "projectFolder": "tools/heft-config-default-rig",
     }

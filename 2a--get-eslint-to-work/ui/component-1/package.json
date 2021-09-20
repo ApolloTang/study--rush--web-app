@@ -29,7 +29,8 @@
     "styled-components": "^5.0.1",
     "typescript": "~4.3.5",
     "eslint": "7.32.0",
-    "jest": "^25.5.4"
+    "jest": "^25.5.4",
+    "prettier": "^2.4.1"
   },
   "scripts": {
     "build": "heft build --clean",

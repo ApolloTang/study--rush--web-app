@@ -18,6 +18,7 @@
   "devDependencies": {
     "@myscope/heft-config-default-rig": "workspace:*",
     "@myscope/eslint-config": "workspace:*",
+    "@myscope/prettier-config": "workspace:*",
     "@rushstack/eslint-config": "^2.4.0",
     "@rushstack/eslint-patch": "^1.0.6",
     "@rushstack/heft": "^0.37.0",
@@ -26,7 +27,8 @@
     "typescript": "~4.3.5",
     "nodemon": "~2.0.12",
     "eslint": "7.32.0",
-    "jest": "^25.5.4"
+    "jest": "^25.5.4",
+    "prettier": "^2.4.1"
   },
   "scripts": {
     "build": "heft build --clean",
