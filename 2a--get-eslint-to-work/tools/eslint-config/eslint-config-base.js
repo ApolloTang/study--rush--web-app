@@ -1,4 +1,4 @@
-/* xxxeslint-disable */
+/* eslint-disable */
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
@@ -66,7 +66,7 @@ module.exports = {
           // Packages. `react` related packages come first
           ['^react', '^@?\\w'],
           // Internal packages
-          ['^(@myscope|@rewardops)(/.*|$)'],
+          ['^(@myscope|@xxx)(/.*|$)'],
           // TS path imports and relative imports. Put same-folder imports and `.` last
           [
             '^(~.+)(/.*|$)',
