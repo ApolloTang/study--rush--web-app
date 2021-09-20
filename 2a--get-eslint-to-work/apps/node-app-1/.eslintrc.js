@@ -4,9 +4,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 module.exports = {
   root: true,
   extends: [
-    '@myscope/eslint-config/src/eslint-configs/node.js',
-    // '@rush-monorepo/eslint-config/typescript/react',
-    // '@myscope/eslint-config/prettier',
+    '@myscope/eslint-config/src/eslint-configs/node.js'
   ],
   parserOptions: {
     project: './tsconfig.json',
