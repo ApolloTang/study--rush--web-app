@@ -4,9 +4,16 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 module.exports = {
   root: true,
 
-  extends: ['eslint:recommended', 'plugin:jest/recommended', 'plugin:jsx-a11y/recommended'],
+  extends: [
+    'eslint:recommended', 
+    'plugin:jest/recommended', 
+    'plugin:jsx-a11y/recommended'
+  ],
 
-  plugins: ['@typescript-eslint', 'simple-import-sort'],
+  plugins: [
+    '@typescript-eslint', 
+    'simple-import-sort'
+  ],
 
   settings: {
     jest: {
