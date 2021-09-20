@@ -1,8 +1,6 @@
-# 🚧🚧🚧 WIP 🚧🚧🚧
-
 ## Description of this project
 
-#### **This is a continuation of 1a--add-node-app, focus on getting eslint to work.**
+#### **This is a continuation of 1a--add-node-app, focus on getting eslint to work. [linting and prettier is working now]**
 
 This is a monorepo for web application managed by [@microsoft/rush](https://rushjs.io/) and [@mirosoft/rushstack](https://rushstack.io/).
 
@@ -59,8 +57,8 @@ Developing node-app:
 
 ### Todo: 
 
-- get eslint to work
-- get prettier to work
+- [done] get eslint to work
+- [done] get prettier to work
 - get precommit to work
 - get prepush to work
 - get deployment pruning to work
