@@ -18,7 +18,8 @@
     "resolveJsonModule": true,
 
     "types": [],
-
+    
+    "skipLibCheck": true,
     "module": "commonjs",
     "target": "es2017",
     "lib": ["es2017"]
