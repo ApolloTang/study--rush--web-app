@@ -1,15 +1,17 @@
 {
   "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json",
 
-  testEnvironment: 'jsdom',
+  "testTimeout": 15000,
+
+  "testEnvironment": "jsdom",
 
   // Automatically clear mock calls and instances before every test
-  clearMocks: true,
+  "clearMocks": true,
 
   // Scripts to run after jest is loaded
-  setupFilesAfterEnv: [
-    './jest-setup/setup-tests.js'
-  ],
+  "setupFilesAfterEnv": [
+    "./jest-setup/setup-tests.js"
+  ]
 }
 // --- EOF ---
 
