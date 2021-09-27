@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is node application",
   "private": true,
-  "main": "dist/start.js",
+  "main": "dist/main.js",
   "license": "ISC",
   "engines": {
     "node": "^14.17.3"
@@ -39,6 +39,6 @@
     "validate-lint": "eslint src --ext=ts",
     "validate-lint:fix": "npm run validate-lint -- --fix",
     "validate-type": "heft build --clean",
-    "dev": "nodemon --watch dist/start.js --exec node dist/start.js"
+    "dev": "nodemon --watch dist/main.js --exec node dist/main.js"
   }
 }

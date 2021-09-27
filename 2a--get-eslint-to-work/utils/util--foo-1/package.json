@@ -2,9 +2,9 @@
   "name": "@myscope/util--foo-1",
   "version": "1.0.0",
   "description": "this is node project",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "module": "src/index.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "module": "src/main.ts",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.0.0"
