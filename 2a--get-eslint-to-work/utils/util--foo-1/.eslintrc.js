@@ -9,7 +9,6 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
     createDefaultProgram: true, //<----- https://stackoverflow.com/a/64488474/3136861
-    createDefaultProgram: true,
     tsconfigRootDir: __dirname,
     sourceType: 'module',
     ecmaVersion: 2015,
