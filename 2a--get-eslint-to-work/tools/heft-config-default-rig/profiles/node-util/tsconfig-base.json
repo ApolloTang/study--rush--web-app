@@ -4,6 +4,9 @@
   "compilerOptions": {
     "outDir": "../../../../../dist",
     "rootDir": "../../../../../src",
+    "baseUrl": "../../../../../src",
+
+
 
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
@@ -15,10 +18,11 @@
     "esModuleInterop": true,
     "noEmitOnError": false,
     "allowUnreachableCode": false,
+
     "resolveJsonModule": true,
 
     "types": [],
-    
+
     "skipLibCheck": true,
     "module": "commonjs",
     "target": "es2017",
