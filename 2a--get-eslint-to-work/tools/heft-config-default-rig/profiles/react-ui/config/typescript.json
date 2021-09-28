@@ -50,7 +50,7 @@
      */
     "fileExtensions": [
       // ".json",  // no need to copy .json because json has been included in tsconfig.json (required for project reference)
-      ".less", ".css", ".png", ".jpg", ".svg"
+      ".json", ".yaml", ".less", ".css", ".png", ".jpg", ".svg"
      ],
     /**
      * Glob patterns that should be explicitly included.
