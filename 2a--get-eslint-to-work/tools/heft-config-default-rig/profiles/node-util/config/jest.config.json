@@ -9,7 +9,7 @@
   // Scripts to run after jest is loaded
   "setupFilesAfterEnv": [
     "jest-extended",
-    // "./jest-setup/setup-tests.js"
+    "./jest-setup/setup-tests.js"
   ]
 }
 // --- EOF ---
