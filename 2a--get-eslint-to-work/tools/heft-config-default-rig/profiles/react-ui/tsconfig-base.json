@@ -6,8 +6,9 @@
     "rootDir": "../../../../../src",
     "baseUrl": "../../../../../",
 
-    "forceConsistentCasingInFileNames": true,
     "jsx": "react",
+
+    "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
@@ -25,7 +26,7 @@
     "skipLibCheck": true,
     "module": "commonjs",
     "target": "es2017",
-    "lib": ["es2017", "dom"]
+    "lib": ["es2016", "dom"]
   },
   "include": [
     "../../../../../src/**/*.ts",

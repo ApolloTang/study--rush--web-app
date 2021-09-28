@@ -29,8 +29,8 @@
     "lib": ["es2017"]
   },
   "include": [
-    "../../../../../src/**/*.ts"
-    , "../../../../../src/**/*.json"
+    "../../../../../src/**/*.ts",
+    "../../../../../src/**/*.json"
     // in the above when composite is true we are required to include json
     // see: https://github.com/microsoft/TypeScript/issues/25636
   ]
