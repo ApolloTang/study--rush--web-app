@@ -2,9 +2,9 @@
   "name": "@myscope/ui--component-1",
   "version": "1.0.0",
   "description": "this is react ui project",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "module": "src/index.tsx",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "module": "src/main.tsx",
   "license": "ISC",
   "peerDependencies": {
     "react": "^17.0.2",

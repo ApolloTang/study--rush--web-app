@@ -1,7 +1,7 @@
 import React from 'react';
 import {render, fireEvent, waitFor, screen} from '@testing-library/react'
 
-import Component from './index'
+import Component from './main'
 
 test('jest checking: testing @myscope/ui--component-1', () => {
   const {container} = render(<Component />)

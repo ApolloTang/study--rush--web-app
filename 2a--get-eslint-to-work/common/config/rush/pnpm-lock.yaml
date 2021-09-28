@@ -214,7 +214,6 @@ importers:
       '@types/styled-components': '*'
       core-js: ^3.0.0
       eslint: ~7.32.0
-      jest: ^25.5.4
       prettier: ^2.4.1
       react: ^17.0.2
       styled-components: ^5.0.1
@@ -237,7 +236,6 @@ importers:
       '@types/react-dom': 17.0.2
       '@types/styled-components': 5.1.14
       eslint: 7.32.0
-      jest: 25.5.4
       prettier: 2.4.1
       react: 17.0.2
       styled-components: 5.3.1_react@17.0.2
@@ -9745,8 +9743,16 @@ packages:
       yargs: 13.3.2
     dev: true
 
+  /webpack-combine-loaders/2.0.4:
+    resolution: {integrity: sha512-5O5PYVE5tZ3I3uUm3QB7niLEJzLketl8hvAcJwa4YmwNWS/vixfVsqhtUaBciP8J4u/GwIHV52d7kkgZJFvDnw==}
+    dependencies:
+      qs: 6.7.0
+    dev: true
+
   /webpack-config-utils/2.3.1:
     resolution: {integrity: sha512-0uC5uj7sThFTePTQjfpe5Wqcbw3KSCxqswOmW96lwk2ZI2CU098rWY2ZqOVGJQYJ3hfEltmjcLNkKutw8LJAlg==}
+    dependencies:
+      webpack-combine-loaders: 2.0.4
     dev: true
     bundledDependencies:
       - webpack-combine-loaders
